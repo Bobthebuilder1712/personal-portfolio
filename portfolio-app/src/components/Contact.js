@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 import React, { useState, useRef } from 'react';
+=======
+import React, { useState } from 'react';
+>>>>>>> db6b3309e7b4e9812d843110d0555781a080866e
 import { resumeData } from '../data/resumeData';
 import './Contact.css';
 import { FaLinkedin } from 'react-icons/fa';
 import { SiHackerrank } from 'react-icons/si';
 import { FiMail } from 'react-icons/fi';
+<<<<<<< HEAD
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
@@ -12,6 +17,13 @@ const Contact = () => {
   const [formData, setFormData] = useState({
     user_name: '',
     user_email: '',
+=======
+
+const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+>>>>>>> db6b3309e7b4e9812d843110d0555781a080866e
     subject: '',
     message: ''
   });
@@ -28,6 +40,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+<<<<<<< HEAD
 
     emailjs.sendForm(
       "service_iykyehk",     // ✅ Replace with your EmailJS Service ID
@@ -46,6 +59,15 @@ const Contact = () => {
     .catch(() => {
       alert("Failed to send message. Please try again.");
     });
+=======
+    // In a real application, you would send this data to a backend server
+    console.log('Form submitted:', formData);
+    setSubmitted(true);
+    setTimeout(() => {
+      setFormData({ name: '', email: '', subject: '', message: '' });
+      setSubmitted(false);
+    }, 3000);
+>>>>>>> db6b3309e7b4e9812d843110d0555781a080866e
   };
 
   return (
@@ -85,6 +107,7 @@ const Contact = () => {
             </div>
           </div>
 
+<<<<<<< HEAD
           <form className="contact-form" ref={formRef} onSubmit={handleSubmit}>
             <div className="form-group">
               <input
@@ -92,6 +115,15 @@ const Contact = () => {
                 name="user_name"
                 placeholder="Your Name"
                 value={formData.user_name}
+=======
+          <form className="contact-form" onSubmit={handleSubmit}>
+            <div className="form-group">
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                value={formData.name}
+>>>>>>> db6b3309e7b4e9812d843110d0555781a080866e
                 onChange={handleChange}
                 required
               />
@@ -100,9 +132,15 @@ const Contact = () => {
             <div className="form-group">
               <input
                 type="email"
+<<<<<<< HEAD
                 name="user_email"
                 placeholder="Your Email"
                 value={formData.user_email}
+=======
+                name="email"
+                placeholder="Your Email"
+                value={formData.email}
+>>>>>>> db6b3309e7b4e9812d843110d0555781a080866e
                 onChange={handleChange}
                 required
               />

@@ -1,6 +1,9 @@
 import React from 'react';
 import { resumeData } from '../data/resumeData';
+<<<<<<< HEAD
 import myphoto from '../assets/myphoto.jpg';
+=======
+>>>>>>> db6b3309e7b4e9812d843110d0555781a080866e
 import './About.css';
 
 const About = () => {
@@ -12,8 +15,11 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p className="about-intro">{resumeData.summary}</p>
+<<<<<<< HEAD
 
         
+=======
+>>>>>>> db6b3309e7b4e9812d843110d0555781a080866e
             
             <div className="about-info">
               <div className="info-item">

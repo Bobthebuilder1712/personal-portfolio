@@ -112,24 +112,34 @@
   transition: all 0.3s ease;
   padding: 8px 16px;
   border: 2px solid rgba(255, 255, 255, 0.5);
+<<<<<<< HEAD
   border-radius: 30px;
     transform: translateY(0);
   transition: transform 300ms ease;
+=======
+  border-radius: 5px;
+>>>>>>> db6b3309e7b4e9812d843110d0555781a080866e
 }
 
 .social-link:hover {
   color: white;
   border-color: white;
   background-color: rgba(255, 255, 255, 0.1);
+<<<<<<< HEAD
   transform: translateY(-8px);
 }
 
 
+=======
+}
+
+>>>>>>> db6b3309e7b4e9812d843110d0555781a080866e
 .hero-animation {
   position: relative;
   height: 400px;
   z-index: 1;
 }
+<<<<<<< HEAD
 /* RIGHT: photo card */
 .hero-right {
   display: flex;
@@ -185,6 +195,8 @@
   backdrop-filter: blur(4px);
   z-index: 1;
 }
+=======
+>>>>>>> db6b3309e7b4e9812d843110d0555781a080866e
 
 .floating-box {
   position: absolute;
@@ -266,9 +278,12 @@
   .hero-animation {
     display: none;
   }
+<<<<<<< HEAD
     .photo-card {
     width: 240px;
     height: 320px;
     margin: 0 auto;
   }
+=======
+>>>>>>> db6b3309e7b4e9812d843110d0555781a080866e
 }

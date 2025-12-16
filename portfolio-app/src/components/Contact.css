@@ -68,7 +68,11 @@
   background-color: rgba(255, 255, 255, 0.2);
   color: white;
   padding: 10px 20px;
+<<<<<<< HEAD
   border-radius: 20px;
+=======
+  border-radius: 5px;
+>>>>>>> db6b3309e7b4e9812d843110d0555781a080866e
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s ease;

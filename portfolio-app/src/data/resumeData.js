@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 import { FaGithub } from "react-icons/fa";
 
+=======
+>>>>>>> db6b3309e7b4e9812d843110d0555781a080866e
 export const resumeData = {
   name: "Bobby Dev",
   location: "Kashipur, Uttarakhand",
@@ -7,7 +10,10 @@ export const resumeData = {
   email: "bobbysingh.dev2003@gmail.com",
   linkedin: "https://www.linkedin.com/in/bobby-dev-571582276",
   hackerrank: "https://www.hackerrank.com/profile/bobbysingh_dev21",
+<<<<<<< HEAD
   Github: "https://www.github.com/Bobthebuilder1712",
+=======
+>>>>>>> db6b3309e7b4e9812d843110d0555781a080866e
   
   summary: "Motivated and detail-oriented Front End Web Developer with a solid grasp of HTML, CSS, and JavaScript. Skilled in building responsive and user-friendly web interfaces. Enthusiastic about learning new technologies and collaborating with teams to create innovative web solutions.",
   
