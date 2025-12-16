@@ -1,0 +1,139 @@
+#about {
+  background-color: var(--bg-light);
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.about-text {
+  animation: slideInUp 0.8s ease;
+}
+
+.about-intro {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.about-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.info-item h3 {
+  color: var(--primary-color);
+  font-size: 1rem;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.info-item p {
+  color: var(--text-dark);
+  font-weight: 500;
+}
+
+.info-item a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.info-item a:hover {
+  text-decoration: underline;
+}
+
+.about-highlights h3 {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.about-highlights ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-highlights li {
+  padding: 10px 0;
+  padding-left: 25px;
+  position: relative;
+  color: var(--text-dark);
+}
+
+.about-highlights li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--success-color);
+  font-weight: bold;
+}
+
+.about-activities {
+  animation: slideInUp 0.8s ease 0.2s both;
+}
+
+.about-activities h3 {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.activities-list {
+  list-style: none;
+  padding: 0;
+}
+
+.activity-item {
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: white;
+  border-left: 4px solid var(--primary-color);
+  border-radius: 5px;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+  color: var(--text-dark);
+}
+
+.activity-item:hover {
+  transform: translateX(10px);
+  box-shadow: var(--shadow-md);
+}
+
+.activity-icon {
+  color: var(--primary-color);
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-info {
+    grid-template-columns: 1fr;
+  }
+}
