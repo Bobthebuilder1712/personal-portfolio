@@ -8,19 +8,11 @@
 
 .header-container {
   max-width: 1200px;
-<<<<<<< HEAD
-  margin-left: 10px;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: left;
-=======
   margin: 0 auto;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
->>>>>>> db6b3309e7b4e9812d843110d0555781a080866e
 }
 
 .logo h1 {
@@ -29,12 +21,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-<<<<<<< HEAD
-  margin: 0px;
-  
-=======
   margin: 0;
->>>>>>> db6b3309e7b4e9812d843110d0555781a080866e
 }
 
 .nav {

@@ -112,34 +112,24 @@
   transition: all 0.3s ease;
   padding: 8px 16px;
   border: 2px solid rgba(255, 255, 255, 0.5);
-<<<<<<< HEAD
-  border-radius: 30px;
-    transform: translateY(0);
+  border-radius: 12px;
+  transform: translateY(0);
   transition: transform 300ms ease;
-=======
-  border-radius: 5px;
->>>>>>> db6b3309e7b4e9812d843110d0555781a080866e
 }
 
 .social-link:hover {
   color: white;
   border-color: white;
+
   background-color: rgba(255, 255, 255, 0.1);
-<<<<<<< HEAD
   transform: translateY(-8px);
 }
 
-
-=======
-}
-
->>>>>>> db6b3309e7b4e9812d843110d0555781a080866e
 .hero-animation {
   position: relative;
   height: 400px;
   z-index: 1;
 }
-<<<<<<< HEAD
 /* RIGHT: photo card */
 .hero-right {
   display: flex;
@@ -278,12 +268,65 @@
   .hero-animation {
     display: none;
   }
-<<<<<<< HEAD
-    .photo-card {
+  .photo-card {
     width: 240px;
     height: 320px;
     margin: 0 auto;
   }
-=======
->>>>>>> db6b3309e7b4e9812d843110d0555781a080866e
+}
+
+/* RIGHT: photo card */
+.hero-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.photo-card {
+  position: relative;
+  width: 300px;
+  height: 380px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 30px 60px rgba(2,6,23,0.45);
+  transform: translateY(0);
+  transition: transform 300ms ease;
+  margin-top: -850px;
+}
+
+/* slight lift on hover */
+.photo-card:hover {
+  transform: translateY(-8px);
+}
+
+/* gradient accent layer behind photo */
+.photo-accent {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(99,102,241,0.95), rgba(236,72,153,0.92));
+  mix-blend-mode: multiply;
+  opacity: 0.88;
+}
+
+/* actual image sits above accent */
+.photo-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  z-index: 2;
+}
+
+/* decorative floating box (top-right) */
+.photo-card::before {
+  content: "";
+  position: absolute;
+  top: -18px;
+  right: -18px;
+  width: 90px;
+  height: 90px;
+  border-radius: 18px;
+  border: 2px solid rgba(255,255,255,0.12);
+  backdrop-filter: blur(4px);
+  z-index: 1;
 }

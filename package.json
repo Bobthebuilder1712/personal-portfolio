@@ -1,4 +1,11 @@
 {
+  "name": "personal-portfolio",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix portfolio-app start",
+    "build": "npm --prefix portfolio-app run build",
+    "install:all": "npm --prefix portfolio-app install"
+  },
   "dependencies": {
     "emailjs-com": "^3.2.0"
   }

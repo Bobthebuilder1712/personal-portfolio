@@ -58,11 +58,7 @@ const Header = ({ activeSection, setActiveSection }) => {
     <header className="header">
       <div className="header-container">
         <div className="logo">
-<<<<<<< HEAD
-          <h1>My portfolio</h1>
-=======
           <h1>Bobby Dev</h1>
->>>>>>> db6b3309e7b4e9812d843110d0555781a080866e
         </div>
 
         <div className="header-actions">
