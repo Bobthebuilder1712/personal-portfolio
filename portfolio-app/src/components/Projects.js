@@ -38,7 +38,14 @@ const Projects = () => {
                 </ul>
               </div>
 
-              <button className="project-btn"><FiExternalLink className="icon" />Learn More</button>
+              <a
+                href={resumeData.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-btn"
+              >
+                <FiExternalLink className="icon" />Learn More
+              </a>
             </div>
           ))}
         </div>
