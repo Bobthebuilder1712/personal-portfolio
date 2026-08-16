@@ -18,7 +18,7 @@ const Hero = ({ setActiveSection }) => {
         <div className="hero-buttons">
           <a href="#projects" className="btn btn-cta"><FaFolderOpen className="icon" />View My Work</a>
           <a href="#contact" className="btn btn-cta"><FiMail className="icon" />Get In Touch</a>
-          <a href="https://raw.githubusercontent.com/Bobthebuilder1712/personal-portfolio/main/resume.pdf" download className="btn btn-cta"><FiDownload className="icon" />Download Resume</a>
+          <a href="https://raw.githubusercontent.com/Bobthebuilder1712/personal-portfolio/main/Bobby_Dev_Resume%20(3).pdf" download className="btn btn-cta"><FiDownload className="icon" />Download Resume</a>
         </div>
 
         <div className="hero-social">
